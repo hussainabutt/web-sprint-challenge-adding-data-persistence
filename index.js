@@ -30,7 +30,7 @@ server.get("/api/projects", (req, res) => {
         console.log(err);
         res
           .status(500)
-          .json({ message: "I really hope I don't see this message" });
+          .json({ message: "How could this happen" });
       });
   });
   
@@ -43,7 +43,7 @@ server.get("/api/projects", (req, res) => {
       .catch(err => {
         res
           .status(500)
-          .json({ message: "I really hope I don't see this message" });
+          .json({ message: "How could this happen" });
       });
   });
   server.get("/api/projects/:id/tasks", (req, res) => {
@@ -56,7 +56,7 @@ server.get("/api/projects", (req, res) => {
         console.log(err);
         res
           .status(500)
-          .json({ message: "I really hope I don't see this message" });
+          .json({ message: "How could this happen" });
       });
   });
   server.get("/api/projects/:id/resources", (req, res) => {
@@ -68,7 +68,7 @@ server.get("/api/projects", (req, res) => {
       .catch(err => {
         res
           .status(500)
-          .json({ message: "I really hope I don't see this message" });
+          .json({ message: "How could this happen" });
       });
   });
   server.post("/api/projects", (req, res) => {
@@ -81,7 +81,7 @@ server.get("/api/projects", (req, res) => {
         console.log(err);
         res
           .status(500)
-          .json({ message: "I really hope I don't see this message" });
+          .json({ message: "How could this happen" });
       });
   });
   server.post("/api/tasks", (req, res) => {
@@ -93,7 +93,7 @@ server.get("/api/projects", (req, res) => {
       .catch(err => {
         res
           .status(500)
-          .json({ message: "I really hope I don't see this message" });
+          .json({ message: "How could this happen" });
       });
   });
   server.post("/api/resources", (req, res) => {
@@ -105,7 +105,7 @@ server.get("/api/projects", (req, res) => {
       .catch(err => {
         res
           .status(500)
-          .json({ message: "I really hope I don't see this message" });
+          .json({ message: "How could this happen" });
       });
   });
   server.put("/api/projects/:id", (req, res) => {
@@ -118,7 +118,7 @@ server.get("/api/projects", (req, res) => {
         console.log(err);
         res
           .status(500)
-          .json({ message: "I really hope I don't see this message" });
+          .json({ message: "How could this happen" });
       });
   });
   server.put("/api/tasks/:id", (req, res) => {
@@ -130,7 +130,7 @@ server.get("/api/projects", (req, res) => {
       .catch(err => {
         res
           .status(500)
-          .json({ message: "I really hope I don't see this message" });
+          .json({ message: "How could this happen" });
       });
   });
   server.put("/api/resources/:id", (req, res) => {
@@ -142,7 +142,7 @@ server.get("/api/projects", (req, res) => {
       .catch(err => {
         res
           .status(500)
-          .json({ message: "I really hope I don't see this message" });
+          .json({ message: "How could this happen" });
       });
   });
   server.delete("/api/projects/:id", (req, res) => {
@@ -154,7 +154,7 @@ server.get("/api/projects", (req, res) => {
       .catch(err => {
         res
           .status(500)
-          .json({ message: "I really hope I don't see this message" });
+          .json({ message: "How could this happen" });
       });
   });
   server.delete("/api/tasks/:id", (req, res) => {
@@ -166,7 +166,7 @@ server.get("/api/projects", (req, res) => {
       .catch(err => {
         res
           .status(500)
-          .json({ message: "I really hope I don't see this message" });
+          .json({ message: "How could this happen" });
       });
   });
   server.delete("/api/resources/:id", (req, res) => {
@@ -178,6 +178,6 @@ server.get("/api/projects", (req, res) => {
       .catch(err => {
         res
           .status(500)
-          .json({ message: "I really hope I don't see this message" });
+          .json({ message: "How could this happen" });
       });
   });
